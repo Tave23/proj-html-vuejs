@@ -6,10 +6,3 @@ Vue.config.productionTip = false
 new Vue({
   render: h => h(App),
 }).$mount('#app')
-
-
-import { createApp } from 'vue'
-import VueAgile from 'vue-agile'
-
-createApp(App)
-  .use(VueAgile)
