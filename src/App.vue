@@ -18,6 +18,8 @@ export default {
 
 <style lang="scss">
 
+@import './assets/style/vars.scss';
+
 @import '~bootstrap';
 
 *{
