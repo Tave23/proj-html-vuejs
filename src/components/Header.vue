@@ -1,5 +1,6 @@
 <template>
   <div id="header">
+     <!-- menu header -->
      <div class="header-menu d-flex align-items-center">
         <!-- bottone ordine online -->
         <button type="button" class="btn btn-danger">order online</button>
@@ -40,31 +41,48 @@
             </li>
          </ul>
      </div>
+
+      <!-- jumbotron carousel header -->
+      <div class="jumbo-header">
+
+         <img src="../assets/img/h3-rev-img-5.png" alt="" class="jumbo-header-title">
+         <img src="../assets/img/h3-rev-img-6.png" alt="" class="jumbo-header-pizza">
+
+      </div>
   </div>
 </template>
 
 <script>
+
 export default {
    name: 'Header',
+   components: {
+      
+   }
 }
+
 </script>
 
 <style lang="scss" >
 
 @import "../assets/style/vars.scss";
 
+/* // menu header */
+
 #header{
-   height: 400px;
+   height: 470px;
    width: 100vw;
    background-color: black;
    text-transform: uppercase;
 }
 
 .header-menu{
+   height: 80px;
    width: 70%;
    margin: 0 auto;
    justify-content: space-between;
    line-height: 65px;
+   margin-bottom: 30px;
 }
 
 .header-menu ul li{
@@ -121,4 +139,17 @@ ul li a:hover{
    background-color: $background-button-header;
 }
 
+// jumbotron header
+
+.jumbo-header{
+   width: 60%;
+   height: calc(470px - 80px - 30px);
+   margin: 0 auto;
+   display: flex;
+   padding-bottom: 40px;
+}
+
+.jumbo-header-pizza{
+   margin-left: -60%;
+}
 </style>
