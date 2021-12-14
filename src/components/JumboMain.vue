@@ -12,7 +12,20 @@
 <!-- jumbo testimonial -->
 
       <div class="jumbo-phrase">
-         <img src="../assets/svg/svg-6.svg" alt="">
+
+         <div class="jumbo-phrase-text">
+            <i class="fas fa-quote-left"></i>
+            <h4>
+               "forget the trendy pizza shops. this hidden spot makes the best new <br> york-style pizza slice in naples"
+            </h4>
+            <p>
+               washington post 2018
+            </p>
+         </div>
+         
+         <div class="jumbo-phrase-logo">
+            <img src="../assets/svg/svg-4.svg" alt="">
+         </div>
       </div>
 
    </div>
@@ -50,9 +63,45 @@ export default {
    width: 100vw;
    background-position: center;
    background-size: contain;
+}
+
+.jumbo-phrase-text{
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
+   height: 90%;
+}
+
+.jumbo-phrase-logo{
+   height: 10%;
+   text-align: right;
+   margin-top: -20px;
+   padding-right: 20px;
+}
+
+.jumbo-phrase-logo img{
+   background-color: white;
+   padding: 11px 15px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.jumbo-phrase-text i{
+   color: $color-quote-left;
+   font-size: 50px;
+}
+
+.jumbo-phrase-text h4,
+.jumbo-phrase-text p{
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 20px;
+}
+
+.jumbo-phrase-text p{
+   color: $color-quote-newspaper;
+   font-size: 12px;
 }
 
 
