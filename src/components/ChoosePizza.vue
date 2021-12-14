@@ -120,6 +120,13 @@
          </div>
          
       </div>
+
+      <div class="jumbo-refresh-logo">
+         <div class="bg-logo">
+            <img src="../assets/svg/svg-10.svg" alt="">
+         </div>
+      </div>
+
    </div>
 </template>
 
@@ -199,6 +206,7 @@ export default {
    text-align: center;
    margin-right: 30px;
    position: relative;
+   cursor:pointer;
 }
 
 .sold{
@@ -234,6 +242,27 @@ export default {
 .delete.first-price{
    text-decoration:line-through;
    color: grey;
+}
+
+.jumbo-refresh-logo{
+   width: 30px;
+   height: auto;
+   padding-bottom: 100px;
+   position: absolute;
+   cursor: pointer;
+}
+
+.bg-logo{
+   background-color: #EE2852;
+   position: relative;
+   left: 97.5vw;
+   bottom: 5px;
+   width: 30px;
+   padding: 3px 5px;
+}
+
+.jumbo-refresh-logo img{
+   filter:  brightness(0) invert(1);
 }
 
 </style>
