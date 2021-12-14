@@ -87,6 +87,10 @@ export default {
    cursor: pointer;
 }
 
+.jumbo-phrase-logo img:hover{
+   background-color: lightgray
+}
+
 .jumbo-phrase-text i{
    color: $color-quote-left;
    font-size: 50px;
