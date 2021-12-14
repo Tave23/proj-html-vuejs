@@ -3,6 +3,8 @@
     <Header />
     <Jumbo-main />
     <SpecialMenu />
+    <PizzaBuilder />
+
   </div>
 </template>
 
@@ -11,13 +13,15 @@
 import Header from './components/Header.vue';
 import JumboMain from './components/JumboMain.vue';
 import SpecialMenu from './components/SpecialMenu.vue';
+import PizzaBuilder from './components/PizzaBuilder.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     JumboMain,
-    SpecialMenu
+    SpecialMenu,
+    PizzaBuilder
   }
 }
 </script>
