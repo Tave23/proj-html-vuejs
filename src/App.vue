@@ -5,6 +5,7 @@
     <SpecialMenu />
     <PizzaBuilder />
     <StaffPizza/>
+    <ChoosePizza/>
 
   </div>
 </template>
@@ -16,6 +17,7 @@ import JumboMain from './components/JumboMain.vue';
 import SpecialMenu from './components/SpecialMenu.vue';
 import PizzaBuilder from './components/PizzaBuilder.vue';
 import StaffPizza from './components/StaffPizza.vue';
+import ChoosePizza from './components/ChoosePizza.vue';
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     JumboMain,
     SpecialMenu,
     PizzaBuilder,
-    StaffPizza
+    StaffPizza,
+    ChoosePizza
   }
 }
 </script>

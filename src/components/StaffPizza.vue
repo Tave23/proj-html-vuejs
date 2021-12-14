@@ -67,6 +67,7 @@ export default {
 
 .logo-partners img{
    width: calc(100% / 5);
+   cursor: pointer;
 }
 
 </style>
