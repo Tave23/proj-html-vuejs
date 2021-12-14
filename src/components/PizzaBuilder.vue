@@ -41,6 +41,7 @@ export default {
    display: flex;
    flex-wrap: wrap;
    position: relative;
+   margin-bottom: 5px;
 }
 
 h2{
