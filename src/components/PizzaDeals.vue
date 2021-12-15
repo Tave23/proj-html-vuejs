@@ -68,7 +68,7 @@
                </div>
 
                <div class="description">
-                  <h5>sienna private dining room with <br>stephane brunn</h5>
+                  <h5>sienna private dining room with <br>stéphane brunn</h5>
                   <p><i class="fas fa-map-marker-alt"></i> 204 E. Pizzetta Tommaso</p>
                </div>
             </div>
