@@ -58,7 +58,7 @@
          </div>
 
          <div class="forum">
-            <button type="button" class="btn btn-danger">order online</button>
+            <button type="button" class="btn btn-danger">book a table</button>
          </div>
       </div>  
    </div>
