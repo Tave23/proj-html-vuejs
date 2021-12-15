@@ -72,7 +72,7 @@ export default {
 #header{
    height: 470px;
    width: 100vw;
-   background-color: black;
+   background-color: $bg-color-similBlack;
    text-transform: uppercase;
 }
 

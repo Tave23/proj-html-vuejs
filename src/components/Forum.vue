@@ -88,7 +88,7 @@ export default {
 @import '../assets/style/vars.scss';
 
 .reservation{
-   height: 300px;
+   height: 225px;
    width: 100vw;
    background-image: url('../assets/img/h3-background-img-3.jpg');
    background-size: contain;

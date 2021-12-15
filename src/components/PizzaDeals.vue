@@ -129,7 +129,7 @@ export default {
 }
 
 .left-img{
-   background-color: black;
+   background-color: $bg-color-similBlack;
    border-bottom: 80px solid white;
 }
 
