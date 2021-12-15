@@ -130,7 +130,7 @@ export default {
 
 .left-img{
    background-color: black;
-   border-bottom: 100px solid white;
+   border-bottom: 80px solid white;
 }
 
 .container-leftside{

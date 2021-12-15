@@ -6,8 +6,9 @@
     <PizzaBuilder />
     <StaffPizza/>
     <ChoosePizza/>
-    <PizzaDeals/>
-
+    <PizzaDeals/>    
+    <Forum/>    
+    
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import PizzaBuilder from './components/PizzaBuilder.vue';
 import StaffPizza from './components/StaffPizza.vue';
 import ChoosePizza from './components/ChoosePizza.vue';
 import PizzaDeals from './components/PizzaDeals.vue';
+import Forum from './components/Forum.vue';
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     PizzaBuilder,
     StaffPizza,
     ChoosePizza,
-    PizzaDeals
+    PizzaDeals,
+    Forum
   }
 }
 </script>

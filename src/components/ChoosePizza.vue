@@ -21,7 +21,7 @@
                <span class="first-price delete">$5.00</span><span class="second-price">$30.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-2a-150x150.png" alt="">
             <h3>fiori di zucca</h3>
@@ -29,7 +29,7 @@
                <span class="first-price">$7.00</span><span class="second-price">$50.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <div class="sold">
                sold
@@ -40,7 +40,7 @@
                <span class="second-price">$55.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-4a-150x150.png" alt="">
             <h3>pizza tartufata</h3>
@@ -48,7 +48,7 @@
                <span class="second-price">$45.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-5a-150x150.png" alt="">
             <h3>francescana</h3>
@@ -56,7 +56,7 @@
                <span class="second-price">$25.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-3a-150x150.png" alt="">
             <h3>campagnola</h3>
@@ -64,7 +64,7 @@
                <span class="first-price">$50.00</span><span class="second-price">$95.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-1a-100x100.png" alt="">
             <h3>diavola</h3>
@@ -72,7 +72,7 @@
                <span class="first-price delete">$5.00</span><span class="second-price">$30.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-2a-150x150.png" alt="">
             <h3>quattro formaggi</h3>
@@ -80,7 +80,7 @@
                <span class="first-price">$7.00</span><span class="second-price">$50.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <div class="sold">
                sold
@@ -91,7 +91,7 @@
                <span class="second-price">$55.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-4a-150x150.png" alt="">
             <h3>verdure</h3>
@@ -99,7 +99,7 @@
                <span class="second-price">$45.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <img src="../assets/img/h3-product-img-5a-150x150.png" alt="">
             <h3>pescatora</h3>
@@ -107,7 +107,7 @@
                <span class="second-price">$25.00</span>
             </div>
          </div>
-
+         <!-- single pizza div -->
          <div class="singlePizza">
             <div class="sold">
                sold
