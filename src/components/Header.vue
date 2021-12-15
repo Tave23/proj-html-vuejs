@@ -49,6 +49,9 @@
          <img src="../assets/img/h3-rev-img-6.png" alt="" class="jumbo-header-pizza">
 
       </div>
+
+      <div class="prev">prev</div>
+      <div class="next">next</div>
   </div>
 </template>
 
@@ -74,6 +77,8 @@ export default {
    width: 100vw;
    background-color: $bg-color-similBlack;
    text-transform: uppercase;
+   position: relative;
+   overflow: hidden;
 }
 
 .header-menu{
@@ -151,5 +156,28 @@ ul li a:hover{
 
 .jumbo-header-pizza{
    margin-left: -60%;
+}
+
+.prev{
+   left: -30px;
+   rotate: 90deg;
+   padding: 8px 10px 30px;
+}
+
+.next{
+   right: -30px;
+   padding: 8px 10px 35px;
+   rotate: 270deg;
+}
+
+.next,
+.prev{
+   border-radius: 50%;
+   font-size: 13px;
+   bottom: 45%;
+   background-color: white;
+   color: $color-quote-newspaper;
+   position: absolute;
+   cursor: pointer;
 }
 </style>
