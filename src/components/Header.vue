@@ -6,41 +6,29 @@
         <button type="button" class="btn btn-danger">order online</button>
          <!-- menu centrale -->
         <ul>
-           <!-- <li>
-               <a href="#" class="li-logos">
-                 <img src="../assets/svg/svg-0.svg" alt=""> home
-               </a>
-            </li> -->
-           <!-- <li><a href="#">pages</a></li>
-           <li><a href="#" class="active">menu</a></li>
 
-           <li>
-              <a href="#" id="header-logo" >
-                 <img src="../assets/img/h5-logo-divided-header.png" alt="logo Don Peppe">
-              </a>
-            </li>
-
-           <li><a href="#">event</a></li>
-           <li><a href="#">blog</a></li>
-           <li><a href="#">landing</a></li> -->
-
+            <!-- link sulla sx -->
             <li v-for="leftLink in centralLeftLinkList" :key="leftLink">
 
-               <a href="#" class="li-logos">
+               <a 
+               @click="activeLink = true"
+               href="#" class="li-logos">
                   {{leftLink}}
                </a>
 
             </li>
-
+            
+            <!-- logo centrale -->
             <li>
               <a href="#" id="header-logo" >
                  <img src="../assets/img/h5-logo-divided-header.png" alt="logo Don Peppe">
               </a>
             </li>
-
+            
+            <!-- link sulla dx -->
             <li v-for="rightLink in centralRightLinkList" :key="rightLink">
 
-               <a href="#" class="li-logos">
+               <a href="#">
                   {{rightLink}}
                </a>
 
@@ -89,7 +77,7 @@ export default {
    props:{
       centralLeftLinkList: Array,
       centralRightLinkList: Array
-   }
+   },
 }
 
 </script>
@@ -208,4 +196,5 @@ ul li a:hover{
    position: absolute;
    cursor: pointer;
 }
+
 </style>

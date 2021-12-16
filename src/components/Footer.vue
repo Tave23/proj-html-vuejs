@@ -6,7 +6,7 @@
             <div class="restaurants">
                <h6>find our restaurants</h6>
 
-               <div class="address">
+               <!-- <div class="address">
                   <p>
                      1614 E. Bell Rd #104. <br>
                      Salerno, AZ 85022 <br>
@@ -36,6 +36,14 @@
                      Naples, AZ 85022 <br>
                      (989) 867-1010
                   </p>
+               </div> -->
+
+               <div
+               class="address"
+               v-for="singleAddress in listAddress" :key="singleAddress">
+
+                  <p>{{singleAddress}}</p>
+
                </div>
             </div>
 
@@ -93,6 +101,9 @@ export default {
    name: 'Footer',
    components: {
       
+   },
+   props:{
+      listAddress: Array
    }
 }
 </script>
@@ -206,6 +217,7 @@ export default {
 .restaurants p{
    color: gray;
    font-size: 13px;
+   width: 75%;
 }
 
 .created-by{

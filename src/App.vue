@@ -8,7 +8,7 @@
     <ChoosePizza/>
     <PizzaDeals/>    
     <Forum/>    
-    <Footer/>    
+    <Footer :listAddress='footerAddress'/>    
     
   </div>
 </template>
@@ -49,6 +49,13 @@ export default {
         "event",
         "blog",
         "landing",
+      ],
+      footerAddress:[
+        '1614 E. Bell Rd #104. Salerno, AZ 85022 (602) 867-1010',
+        '204 E. Piazzetta Tommaso Sorrento, AZ 85022 (358) 867-1010',
+        'Viale Puglia 54 Torre del Greco,  AZ 85022 (359) 867-1010',
+        'Corso Itali AA Naples, AZ 85022 (989) 867-1010',
+
       ]
     }
   }
