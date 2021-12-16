@@ -6,12 +6,12 @@
         <button type="button" class="btn btn-danger">order online</button>
          <!-- menu centrale -->
         <ul>
-           <li>
-              <a href="#" class="li-logos">
+           <!-- <li>
+               <a href="#" class="li-logos">
                  <img src="../assets/svg/svg-0.svg" alt=""> home
                </a>
-            </li>
-           <li><a href="#">pages</a></li>
+            </li> -->
+           <!-- <li><a href="#">pages</a></li>
            <li><a href="#" class="active">menu</a></li>
 
            <li>
@@ -22,7 +22,31 @@
 
            <li><a href="#">event</a></li>
            <li><a href="#">blog</a></li>
-           <li><a href="#">landing</a></li>
+           <li><a href="#">landing</a></li> -->
+
+            <li v-for="leftLink in centralLeftLinkList" :key="leftLink">
+
+               <a href="#" class="li-logos">
+                  {{leftLink}}
+               </a>
+
+            </li>
+
+            <li>
+              <a href="#" id="header-logo" >
+                 <img src="../assets/img/h5-logo-divided-header.png" alt="logo Don Peppe">
+              </a>
+            </li>
+
+            <li v-for="rightLink in centralRightLinkList" :key="rightLink">
+
+               <a href="#" class="li-logos">
+                  {{rightLink}}
+               </a>
+
+            </li>
+
+
         </ul>
          <!-- menu di dx -->
          <ul>
@@ -61,6 +85,10 @@ export default {
    name: 'Header',
    components: {
       
+   },
+   props:{
+      centralLeftLinkList: Array,
+      centralRightLinkList: Array
    }
 }
 

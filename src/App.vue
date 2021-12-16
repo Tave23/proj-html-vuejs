@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :centralLeftLinkList='centralLeftLinkHeader' :centralRightLinkList='centralRightLinkHeader'/>
     <Jumbo-main />
     <SpecialMenu />
     <PizzaBuilder />
@@ -37,6 +37,20 @@ export default {
     PizzaDeals,
     Forum,
     Footer
+  },
+  data(){
+    return{
+      centralLeftLinkHeader:[
+        "home",
+        "pages",
+        "menu",
+      ],
+      centralRightLinkHeader:[
+        "event",
+        "blog",
+        "landing",
+      ]
+    }
   }
 }
 </script>
